@@ -1,6 +1,6 @@
 # <u>Operating System **Lab 3 tasks**</u> 
 
-# CS-2022-172                                                Fiza
+# CS-2022-172               Fiza
 
 # ⇒ TASK 1:
 
