@@ -49,11 +49,9 @@
 ![Screenshot (116)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/a7a2be07-94ad-4892-8f35-6f83c3c37d13)
 
      
-
    - Set the **memory size** and processors according to your system specifications and click next.
 
-    ![Screenshot (118)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/1437f902-90fc-4505-91a4-3b188d35f516)
-
+ ![Screenshot (118)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/1f17906e-f889-42ba-8be5-237e73c98cc9)
 
      
 
@@ -84,14 +82,9 @@
 ![Screenshot (122)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/55e55860-805c-4c7e-aa11-84d9dd120c6e)
 
      
-
-     ------
-
-     Congratulations! you have successfully installed the **Ubuntu virtual OS** on your computer.
+- Congratulations! you have successfully installed the **Ubuntu virtual OS** on your computer.
 
 # **Installing C and C++ Compilers on Ubuntu**
-
-------
 
 Before moving ahead **make sure you have internet access** and the virtual Ubuntu OS is working properly.
 
@@ -149,11 +142,8 @@ Before moving ahead **make sure you have internet access** and the virtual Ubunt
      ```
 
   ![Screenshot (149)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/0b6ab146-8d0c-4a50-b75e-d840c89f47b9)
-
-
-     ------
      
-     Now, you have a fully **functional Ubuntu virtual machine on Oracle VirtualBox** with **C and C++ compilers** installed. You can use the terminal to write and compile C and C++ programs on your virtual machine.
+-Now, you have a fully **functional Ubuntu virtual machine on Oracle VirtualBox** with **C and C++ compilers** installed. You can use the terminal to write and compile C and C++ programs on your virtual machine.
 
 # **Testing C, C++ Compilers**
 
@@ -168,30 +158,20 @@ Before moving ahead **make sure you have internet access** and the virtual Ubunt
   1. Open **Ubuntu command** terminal.
 
   2. Run commands
-
-    ```
   mkdir -p ~/Templates/Text
   cd ~/Templates/Text
   touch document
-    ```
 ![Screenshot (151)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/9d4de58f-6aa4-418a-b59d-670176d2a893)
-
-
-
-    
 
   3. Now, go to your **Linux File Manager** or **Desktop** and **right-click** where you want to **create a new file** and the option will be available.
 
   4. Select **New Document** and then **Text Document**.
-
    
 ![Screenshot (152)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/2ee608a6-11b2-4bc1-b1bc-45b0ebb1b5ff)
 
     
-
   5. This will instantly create a new text file on your Linux OS.
-
-    
+   
 
 - ## Step 2:  **Using C Language Compiler**
 
@@ -206,7 +186,6 @@ Before moving ahead **make sure you have internet access** and the virtual Ubunt
 
   3. **Write a sample C language code** in the file. For example:
 
-    ```
   #include<stdio.h>
   
   void main() 
@@ -215,32 +194,17 @@ Before moving ahead **make sure you have internet access** and the virtual Ubunt
   	int a=3,b=7;
   	printf("%d is the sum of a and b", a+b);
   }
-    ```
+   
 
   ![Screenshot (154)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/aa06489c-3a87-4e18-9f7c-f717deefff73)
 
-
-    
-
   4. Open the **Linux terminal**(**`Ctrl + Alt + T`**) and enter the following commands to compile and run this code (**You must first enter the directory where you have created the file** using the "**cd ~/**" command).
-
     **To Compile:**
-
-    ```
-  gcc -o obj test.c
-    ```
-
+     gcc -o obj test.c
     **To Run:**
+      ./obj
 
-    ```
-  ./obj
-    ```
-
-  ![Screenshot (156)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/21537a0d-a5b3-480b-b364-6f89ed1d9921)
-
-
-    
-
+  ![Screenshot (156)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/21537a0d-a5b3-480b-b364-6f89ed1d9921)   
 - ## Step 3:  **Using C++ Language Compiler**
 
   1. **Repeat the same procedure as Step 2** with few changes.
@@ -248,8 +212,6 @@ Before moving ahead **make sure you have internet access** and the virtual Ubunt
   2. **Create a new file** and rename it to **test.cpp**.
 
   3. **Double-click** to open and **write a sample C++ language code** in the file. For example:
-
-    ```
 #include<iostream>
   using namespace std;
 
@@ -259,7 +221,6 @@ Before moving ahead **make sure you have internet access** and the virtual Ubunt
       int a=1,b=2;
       cout << a+b;
   }
-    ```
   ![Screenshot (157)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/5990d62d-0484-499b-843b-4fbffcc1bca7)
 
  
@@ -269,22 +230,12 @@ Before moving ahead **make sure you have internet access** and the virtual Ubunt
   4. Open the **Linux terminal**(**`Ctrl + Alt + T`**) and enter the following commands to compile and run this code (**You must first enter the directory where you have created the file** using the "**cd ~/**" command).
   
   **To Compile:**
-  
-  ```
-  g++ -o obj test.c
-  ```
-  
+
+  g++ -o obj test.c  
     **To Run:**
-  
-  ```
   ./obj
-  ```
   
  ![Screenshot (158)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/0481dc84-a1fa-4ba9-938f-b9895efa8851)
-
-  
-------
-  
   We are now done with the **running** and **testing** of both the compilers and successfully executing **C and C++ programs**.
 
 
