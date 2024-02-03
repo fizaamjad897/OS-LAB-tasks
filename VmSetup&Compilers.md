@@ -10,7 +10,8 @@
 
    - Download the version of VirtualBox that is **compatible** with your operating system (Windows, macOS, or Linux).
 
-     ![virtualBoxDownload](C:\Users\ifiza\Pictures\Screenshots\Screenshot (135).png)
+     
+ ![Screenshot (135)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/6aff176e-9e77-451a-ae4a-f97142ffc41a)
 
      
 
@@ -18,7 +19,8 @@
 
    - Run the installer, follow the on-screen instructions and wait for the installation to finish.
 
-     ![vbinstall](C:\Users\ifiza\Pictures\Screenshots\Screenshot (137).png)
+   ![Screenshot (137)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/ed589594-ea7c-4a73-8fba-6ad96ba1841d)
+
 
      
 
@@ -26,7 +28,7 @@
 
    - Visit the [**Ubuntu website**](https://www.unbuntu.com) and download the latest **LTS version of Ubuntu**.
 
-     ![ubuntuinstall](C:\WhatsApp Image 2024-01-28 at 10.37.32 PM.jpeg)
+![WhatsApp Image 2024-02-03 at 4 06 21 PM](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/dcbd2da7-5cd9-4b10-8870-9a05207c66d0)
 
      
 
@@ -36,25 +38,29 @@
 
    - **Name** your virtual machine, **choose the directory** you want to install it in and **select the iso file** that you have previously downloaded.
 
-     ![machine](C:\Screenshot (114).png)
+    
+![Screenshot (114)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/d53441ee-4fb4-452a-9c62-d6aeae7ecb5f)
 
      
 
    - check the "**Skip Unattended Installation**" box according to your requirements(the terminal that we will be needing later on during the installation of compilers **does not work sometimes if this is left unchecked**) and click next.
 
-     ![checkbox](C:\Screenshot (116).png)
+   
+![Screenshot (116)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/a7a2be07-94ad-4892-8f35-6f83c3c37d13)
 
      
 
    - Set the **memory size** and processors according to your system specifications and click next.
 
-     ![AllocateMemory](C:\Screenshot (118).png)
+    ![Screenshot (118)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/1437f902-90fc-4505-91a4-3b188d35f516)
+
 
      
 
    - Create a virtual hard disk and **allocate space** and click next.
 
-     ![AllocateDisk](C:\Screenshot (119).png)
+   ![Screenshot (119)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/cd69f142-40eb-4775-9c99-80cfa27f2150)
+
 
    - Finally click on **finish** to finish creating a virtual machine.
 
@@ -64,15 +70,18 @@
 
    - Now **start** the virtual machine.
 
-     ![startMachine](C:\Screenshot (120).png)
+    
+![Screenshot (120)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/7882e8d6-cde8-4cb0-9574-6142148db861)
 
      
 
    - Select "**Try or Install Ubuntu**" and follow the on-screen instructions to install Ubuntu on the virtual machine.
 
-     ![commanPromptInstall](C:\Screenshot (121).png)
+  ![Screenshot (121)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/bf9dbfbc-bb48-47f7-af9e-178120e5c131)
 
-     ![Opened](C:\Screenshot (122).png)
+
+  
+![Screenshot (122)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/55e55860-805c-4c7e-aa11-84d9dd120c6e)
 
      
 
@@ -92,7 +101,8 @@ Before moving ahead **make sure you have internet access** and the virtual Ubunt
 
    - Or open the **Dock** and select the terminal icon.
 
-     ![dock](C:\Screenshot (124).png)
+![Screenshot (124)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/a7e94ae8-0b6d-467a-a5e4-ae76e6544a12)
+
 
      
 
@@ -105,16 +115,16 @@ Before moving ahead **make sure you have internet access** and the virtual Ubunt
      ```
 
      
+![Screenshot (147)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/0c68003e-13b5-4938-9f07-bd162a538f25)
 
-     ![terminalGCC](C:\Users\ifiza\Pictures\Screenshots\Screenshot (147).png)
-
-     
+      
 
    - After entering this command, enter the **password** for your Virtual OS if needed
 
    - If you have an internet connection the C compiler will start **downloading and installing** automatically.
 
-     ![installingGCC](C:\Users\ifiza\Pictures\Screenshots\Screenshot (148).png)
+  ![Screenshot (148)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/1a9ee326-00c9-44a9-a31b-c2362c30fee4)
+
 
      
 
@@ -125,8 +135,9 @@ Before moving ahead **make sure you have internet access** and the virtual Ubunt
      ```
      sudo apt install g++
      ```
+![Screenshot (150)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/9d0f1bd7-8dee-4448-8bb2-1c608d52c0ac)
 
-     ![installing++](C:\Users\ifiza\Pictures\Screenshots\Screenshot (150).png)
+
 
 4. ## **Verify Installations:**
 
@@ -137,7 +148,8 @@ Before moving ahead **make sure you have internet access** and the virtual Ubunt
      g++ --version
      ```
 
-     ![check](C:\Users\ifiza\Pictures\Screenshots\Screenshot (149).png)
+  ![Screenshot (149)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/0b6ab146-8d0c-4a50-b75e-d840c89f47b9)
+
 
      ------
      
@@ -162,8 +174,9 @@ Before moving ahead **make sure you have internet access** and the virtual Ubunt
   cd ~/Templates/Text
   touch document
     ```
+![Screenshot (151)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/9d4de58f-6aa4-418a-b59d-670176d2a893)
 
-    ![documentOption](C:\Users\ifiza\Pictures\Screenshots\Screenshot (151).png)
+
 
     
 
@@ -171,7 +184,8 @@ Before moving ahead **make sure you have internet access** and the virtual Ubunt
 
   4. Select **New Document** and then **Text Document**.
 
-    ![optionAvailable](C:\Users\ifiza\Pictures\Screenshots\Screenshot (152).png)
+   
+![Screenshot (152)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/2ee608a6-11b2-4bc1-b1bc-45b0ebb1b5ff)
 
     
 
@@ -183,7 +197,8 @@ Before moving ahead **make sure you have internet access** and the virtual Ubunt
 
   1. **Create a new file** and rename it to **test.c**.
 
-  ![rename](C:\Users\ifiza\Pictures\Screenshots\Screenshot (153).png)
+
+![Screenshot (153)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/430fb9d4-c5c2-49bc-b545-832b51584fe1)
 
     
 
@@ -202,7 +217,8 @@ Before moving ahead **make sure you have internet access** and the virtual Ubunt
   }
     ```
 
-    ![exampleCode](C:\Users\ifiza\Pictures\Screenshots\Screenshot (154).png)
+  ![Screenshot (154)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/aa06489c-3a87-4e18-9f7c-f717deefff73)
+
 
     
 
@@ -220,7 +236,8 @@ Before moving ahead **make sure you have internet access** and the virtual Ubunt
   ./obj
     ```
 
-    ![runProgram](C:\Users\ifiza\Pictures\Screenshots\Screenshot (156).png)
+  ![Screenshot (156)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/21537a0d-a5b3-480b-b364-6f89ed1d9921)
+
 
     
 
@@ -243,8 +260,9 @@ Before moving ahead **make sure you have internet access** and the virtual Ubunt
       cout << a+b;
   }
     ```
-  
-  4. ![cppRename](C:\Users\ifiza\Pictures\Screenshots\Screenshot (157).png)
+  ![Screenshot (157)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/5990d62d-0484-499b-843b-4fbffcc1bca7)
+
+ 
   
        
   
@@ -262,7 +280,8 @@ Before moving ahead **make sure you have internet access** and the virtual Ubunt
   ./obj
   ```
   
-    ![runProgramC++](C:\Users\ifiza\Pictures\Screenshots\Screenshot (158).png)
+ ![Screenshot (158)](https://github.com/fizaamjad897/OS-LAB-tasks/assets/120313148/0481dc84-a1fa-4ba9-938f-b9895efa8851)
+
   
 ------
   
