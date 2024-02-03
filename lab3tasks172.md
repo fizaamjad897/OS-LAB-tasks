@@ -8,7 +8,7 @@
 
 ▹First create a directory for mrtom in which all the relevant files are saved then change its permission. ▹After that add new user  using **adduser** command and name him mrtom.
 
-![](D:/ostasks/lab3/Screenshot (187).png)
+lab3/Screenshot (187).png
 
 ## 2- Creating a new text file named 19f-XXXX.txt
 
